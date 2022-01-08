@@ -1,8 +1,8 @@
 // Write your JavaScript code here.
 // Remember to pay attention to page loading!
 function init() {
-     const takeOffBtn = document.getElementById("takeoff");
-     const landing = document.getElementById("landing");
+    const landing = document.getElementById("landing");
+    const takeOffBtn = document.getElementById("takeoff");
      const missionAbort = document.getElementById("missionAbort");
 
 
@@ -82,5 +82,6 @@ function init() {
         }
     });  
 
-}
+};
+
 window.addEventListener('load', init);
